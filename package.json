@@ -1,0 +1,57 @@
+{
+  "name": "curso-webpack",
+  "version": "1.0.0",
+  "description": "este es un curso muy divertido",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js --output bundle.js --mode development",
+    "build:local": "webpack",
+    "build:external": "webpack --config ./external/webpack.config.js",
+    "build:css": "webpack --config ./css-style-loader/webpack.config.js",
+    "build:css:extract": "webpack --config ./plugin-extract-text/webpack.config.js",
+    "build:multi": "webpack --config ./multiples-entry-points/webpack.config.js",
+    "build:dev": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js",
+    "build:babel": "webpack --config ./babel-loader/webpack.config.js",
+    "build:images": "webpack --config ./url-loader/webpack.config.js",
+    "build:fonts": "webpack --config ./url-loader-fonts/webpack.config.js",
+    "build:video": "webpack --config ./url-loader-video/webpack.config.js",
+    "build:json": "webpack --config ./json-loader-video/webpack.config.js",
+    "build:react": "webpack --config ./react/webpack.config.js",
+    "build:sass": "webpack --config ./sass-loader/webpack.config.js",
+    "build:prevent": "webpack --config ./prevent-duplication/webpack.config.js",
+    "build:vendor": "webpack --config ./vendor/webpack.config.js",
+    "build:dll": "webpack --config ./dll/webpack.dll.config.js",
+    "build:dll:src": "webpack --config ./dll/webpack.config.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@OnasisSoto25",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-react": "^7.0.0-beta.51",
+    "babel-loader": "^8.0.0-beta.3",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "mini-css-extract-plugin": "0.4.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.12.0",
+    "webpack-cli": "3.0.8",
+    "webpack-dev-server": "3.1.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.51",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}

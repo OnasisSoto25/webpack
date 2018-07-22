@@ -1,0 +1,22 @@
+/*../../src/fonts/*/
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('src/fonts/OpenSans-Regular-webfont.eot');
+    src: url('src/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('src/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+    url('src/fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 40px;
+}

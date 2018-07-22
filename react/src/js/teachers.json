@@ -1,0 +1,16 @@
+{
+  "teachers":[
+    {
+      "name": "Freddy Vega",
+      "twitter": "freddier"
+    },
+    {
+      "name": "Leonidas Esteban",
+      "twitter": "LeonidasEsteban"
+    },
+    {
+      "name": "Julian Duque",
+      "twitter": "julian_duque"
+    }
+  ]
+}
